@@ -1,5 +1,5 @@
 ---
-name: disk-audit
+name: disk-space-audit
 description: Scan and analyze disk space usage on Windows and macOS (with Linux references), then produce a categorized cleanup report — and, only when the user explicitly asks, execute cleanup with per-item confirmation. Use this skill whenever the user asks to "scan C drive", "analyze disk space", "find what's eating my storage", "clean up system drive", "磁盘空间分析", "清理 C 盘", "扫描磁盘占用", "找重复文件", "find duplicates", or wants a breakdown of where disk space went. Also trigger when user mentions disk full, low space warnings, or wants to know what can be safely deleted. The audit phase is always read-only. The cleanup phase requires explicit, per-item user confirmation and never proceeds on ambiguous intent.
 ---
 
